@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+select {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.orders-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.orders-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.alert {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.alert.success { background-color: #d4edda; color: #155724; }
+.alert.error { background-color: #f8d7da; color: #721c24; }
+.alert.info { background-color: #cce5ff; color: #004085; }
+
+.btn {
+   padding: 5px 10px;
+   border-radius:5px; 
+   border:none; 
+   cursor:pointer; 
+}
+.btn.delete { background-color:#dc3545; color:white; }
+.btn.edit { background-color:#007bff; color:white; }
+
+.btn.delete:hover { background-color:#c82333; }
+.btn.edit:hover { background-color:#0056b3; }
+
+#book_fields, #journal_fields, #electronic_fields { display:none; }
